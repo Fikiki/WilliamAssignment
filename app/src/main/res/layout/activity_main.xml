@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tchongwe.william.MainActivity">
+
+    <Button
+        android:id="@+id/dublinButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:width="130dp"
+        android:text="dublinBike" />
+
+    <Button
+        android:id="@+id/mapButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dublinButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:elevation="12dp"
+        android:text="Map"
+        android:width="130dp"/>
+
+    <Button
+        android:id="@+id/aboutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mapButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:width="130dp"
+        android:text="About" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/button">
+
+
+        <TextView
+            android:id="@+id/buttonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="30dp" />
+
+
+    </ScrollView>
+
+</android.widget.RelativeLayout>
